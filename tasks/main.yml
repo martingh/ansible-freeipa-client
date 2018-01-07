@@ -92,4 +92,4 @@
     - ubuntu
     - freeipaclient
   when: ansible_os_family == 'Debian'
-  import_task: ubuntu.yml
+  import_tasks: ubuntu.yml
